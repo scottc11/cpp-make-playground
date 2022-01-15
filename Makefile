@@ -17,4 +17,4 @@ build: clean
 	${CXX} -Wall -v $(wildcard ${SOURCE_DIR}/*.cpp) -o ${BUILD_DIR}/${TARGET}
 
 clean:
-	rm -r $(BUILD_DIR)
+	rm -rf $(BUILD_DIR)
